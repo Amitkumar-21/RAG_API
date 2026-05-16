@@ -1,0 +1,23 @@
+# Virtual Environment
+pansc/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Data Folder
+data/*
+!data/.gitkeep
+!data/uploads/
+!data/uploads/.gitkeep
+!data/chroma/
+!data/chroma/.gitkeep
+
+# Pytest Cache
+.pytest_cache/
+
+# VS Code
+.vscode/
