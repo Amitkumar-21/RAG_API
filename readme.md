@@ -170,7 +170,3 @@ pytest
 * Maximum 1000 pages per document
 
 ---
-
-# Author
-
-Amit Kumar
