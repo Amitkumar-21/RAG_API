@@ -1,8 +1,8 @@
-# Panscience RAG API
+# RAG Pipeline
 
 ## Overview
 
-Panscience RAG API is a Retrieval-Augmented Generation (RAG) backend system built using FastAPI, Gemini API, and ChromaDB.
+RAG Pipeline is a Retrieval-Augmented Generation (RAG) backend system built using FastAPI, Gemini API, and ChromaDB.
 
 The application allows users to:
 
