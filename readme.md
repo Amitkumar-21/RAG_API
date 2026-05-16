@@ -1,4 +1,4 @@
-#RAG Pipeline
+# RAG Pipeline
 
 ## Overview
 
@@ -107,6 +107,21 @@ Open:
 ```text
 http://127.0.0.1:8000/docs
 ```
+
+---
+
+# Application Flow
+
+1. User uploads a PDF using the `/upload` endpoint.
+2. Text is extracted from the PDF using `pypdf`.
+3. Extracted text is split into token-based chunks.
+4. Gemini generates embeddings for each chunk.
+5. Embeddings are stored in ChromaDB.
+6. Metadata is stored in SQLite.
+7. User sends a question using the `/query` endpoint.
+8. Relevant chunks are retrieved from ChromaDB.
+9. Retrieved context is sent to Gemini.
+10. Gemini generates the final contextual answer.
 
 ---
 
