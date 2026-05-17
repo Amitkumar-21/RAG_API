@@ -11,3 +11,4 @@ app.include_router(documents_router)
 @app.get("/")
 def home():
     return {"message": "RAG API Running"}
+

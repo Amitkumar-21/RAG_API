@@ -9,6 +9,8 @@ from app.db.metadata_db import (save_document_metadata,get_document_count)
 from fastapi import HTTPException
 import os
 
+os.makedirs("data/uploads", exist_ok=True)
+os.makedirs("data/chroma", exist_ok=True)
 router = APIRouter()
 #Folder where pdfs will be stored
 UPLOAD_DIR = "data/uploads"
